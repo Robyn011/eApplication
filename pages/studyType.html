@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empiras Global Academy - Status</title>
+    <link rel="stylesheet" href="/styling/studyType.css">
 </head>
 <body>
-  
+    <header>
+        <nav>
+            <div class="logo">EMPIRAS GLOBAL</div>
+            <div class="nav-links">
+              <li><a href="/pages/homePage.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="/pages/studyPath.html">Admissions</a></li>
+              <li><a href="/pages/statusPage.html">Status</a></li>
+              <li><a href="/pages/contact.html">Contact</a></li>
+            </div>
+            <div class="login-btn">
+                <button>Log In</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form class="study-form">
+            <label for="degree">I want to study...</label>
+            <select id="degree" class="dropdown">
+                <option value="" disabled selected>Select Degree</option>
+                <option value="bachelors">Bachelor's</option>
+                <option value="masters">Master's</option>
+                <option value="phd">PhD</option>
+            </select>
+
+            <label for="country">I want to study in...</label>
+            <select id="country" class="dropdown">
+                <option value="" disabled selected>Select Country</option>
+                <option value="canada">Canada</option>
+                <option value="france">France</option>
+                <option value="germany">Germany</option>
+                <option value="cuba">Cuba</option>
+            </select>
+
+            <button type="submit" class="apply-btn"><a href="/pages/admissionDetails.html">Apply</a></button>
+        </form>
+    </main>
 </body>
 </html>
