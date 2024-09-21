@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #2d2d2d;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c09a63;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.login-btn button {
+  background-color: #3e3e3e;
+  color: #c09a63;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.login-btn button:hover {
+  background-color: #505050;
+}
+
+main {
+  text-align: center;
+  margin: 100px 0;
+}
+
+h1 {
+  font-size: 36px;
+  color: #2d2d2d;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+}
+
+.options {
+  margin-top: 30px;
+}
+
+.option-btn {
+  background-color: #a56942;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.option-btn:hover {
+  background-color: #8e5934;
+}
